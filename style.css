@@ -1,0 +1,59 @@
+/* Reset some default styling */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #07a9ee;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+section {
+    background-color: rgb(148, 233, 142);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    flex: 1;
+    margin: 0.5rem;
+    display: flex;
+}
+
+#filter, #cart {
+    flex: 0 1 25%;
+}
+
+#dog-list {
+    flex: 1;
+}
+
+#cart-items {
+    list-style-type: none;
+}
+
+#checkout-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#checkout-btn:hover {
+    background-color: #555;
+}
